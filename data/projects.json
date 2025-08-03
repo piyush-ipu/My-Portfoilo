@@ -68,29 +68,9 @@
       "description": "Built a responsive Spotify website clone using HTML, CSS, and JavaScript. The project replicates the core layout and design of Spotify's official web player, including a dynamic sidebar, music player UI, and interactive navigation. Focused on pixel-perfect styling and smooth user experience across devices.",
       "languageIcons": ["/images/html_icon.png", "/images/css_icon.png", "/images/js_icon.png"],
         "video": "/videos/spotify.mp4"
-    },       
-    {
-      "thumbnail": "/images/blinkit_thumbnail.png",
-      "title": "Blinkit App UI Clone",
-      "link": {
-        "label": "Blinkit Web App",
-        "url": "https://blinkit-33f60.web.app"
-      },
-      "description": "Built a responsive Blinkit-inspired web app frontend using Flutter and Dart. The UI mimics real-world e-commerce interactions with smooth animations, custom widgets, and dynamic layout rendering. Hosted seamlessly on Firebase for fast, reliable access.",
-      "languageIcons": ["/images/flutter_icon.png", "/images/dart_icon.png", "/images/firebase_icon.png"],
-        "video": "/videos/blinkit.mp4"
-    },
-    {
-      "thumbnail": "/images/todo_thumbnail.png",
-      "title": "Todo App",
-      "link": {
-        "label": "Todo Web App",
-        "url": "https://todoapp-2c9b5.web.app"
-      },
-      "description": "Developed a fully functional Todo web app using Flutter and Dart, deployed on Firebase. Features include adding new tasks, marking them as complete, deleting tasks, and real-time search functionality. Designed with a clean, responsive UI for seamless task management across devices.",
-      "languageIcons": ["/images/flutter_icon.png", "/images/dart_icon.png", "/images/firebase_icon.png"],
-        "video": "/videos/todo.mp4"
-    }    
+    }      
+   
+  
     
   ]
   
