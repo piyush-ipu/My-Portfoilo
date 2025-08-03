@@ -39,7 +39,7 @@ export default function MailForm() {
     >
       {/* Heading */}
       <div className="py-2">
-        <h2 className="text-4xl font-bold">Ask A Question</h2>
+        <h2 className="text-4xl font-bold">Get in Touch 👨‍💻</h2>
         <p className="text-gray-500 mt-2">
           If you have any questions, you can contact me. <br />
           Please, fill out the form below.
