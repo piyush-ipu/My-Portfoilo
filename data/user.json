@@ -1,0 +1,151 @@
+{
+  "info": [{ "name": "Piyush Kumar Singh", "role": "Software Engineer" }],
+
+  "contact": [
+    {
+      "image": "/images/phone.png",
+      "name": "+91 9871050277",
+      "href": "tel:+91 9871050277"
+    },
+    {
+      "image": "/svg/gmail.svg",
+      "name": "a661piyush@gmail.com",
+      "href": "mailto:a661piyush@gmail.com"
+    },
+    {
+      "image": "/svg/linkdin.svg",
+      "name": "Piyush Kumar Singh",
+      "href": "www.linkedin.com/in/piyush-kumar-singh-39826a259"
+    },
+    {
+      "image": "/svg/github.svg",
+      "name": "piyush-ipu",
+      "href": "https://github.com/piyush-ipu/"
+    }
+  ],
+
+  "location": [{ "city": "📍 Delhi", "country": "India" }],
+
+  "ProfessionalSummary": [
+    {
+      "description": "Passionate and detail-oriented Full Stack Developer with strong expertise in JavaScript, TypeScript, Flutter, and scalable web technologies like Next.js, MongoDB, and Prisma. Committed to building clean, performant, and accessible apps. Experienced in designing and developing full-fledged applications from concept to deployment, with a focus on intuitive UI/UX, API integrations, and responsive design. Skilled in both frontend and backend development, delivering end-to-end solutions that are secure, maintainable, and optimized for performance. Driven by a continuous learning mindset, actively staying updated with the latest trends in web and mobile development. Proven ability to collaborate in agile environments, communicate effectively across teams, and adapt to dynamic project needs. Passionate about turning ideas into digital reality through code."
+    }
+  ],
+
+  "AcademicBackground": [
+    {
+      "name": "USAR (GSSIPU)",
+      "education": "B.TECH A&R (2022 - Present)",
+      "describe": "Learned computer science fundamentals and hands-on full stack projects using MERN, Flutter, Java, and Node.js."
+    },
+    {
+      "name": "GBSSS NO.3 Sarojini Nagar",
+      "education": "Senior Secondary (PCMB 2022 Passout)",
+      "grade": "Grade B",
+      "describe": "Focused on Math, Physics, and Computer Science to strengthen logic and problem-solving."
+    }
+  ],
+
+  "CoreSkills": [
+    {
+      "type": "Languages",
+      "learn": "Java, TypeScript, JavaScript, Dart"
+    },
+    {
+      "type": "Backend & Scripting",
+      "learn": "Node.js, PHP, Mongoose, Prisma (ORM)"
+    },
+    { "type": "Databases", "learn": "MongoDB, MySQL" },
+    { "type": "API & Communication", "learn": "REST APIs" },
+    {
+      "type": "Frameworks",
+      "learn": " Next.js (Web), React.js, Flutter (Mobile + Web)"
+    },
+    {
+      "type": "Authentication",
+      "learn": "NextAuth, Clerk, Firebase Auth, JWT (JSON Web Token)"
+    },
+    {
+      "type": "UI Libraries",
+      "learn": "ShadCN UI, Tailwind CSS, Bootstrap, Framer Motion"
+    },
+    {
+      "type": "Soft Skills",
+      "learn": "Teamwork & Collaboration, Debugging & Problem Solving, Clean Code Practices"
+    }
+  ],
+
+  "Projects": [
+    {
+      "title": "AI Mentor Assistant (March 2025)",
+      "tech": "Next.js, MongoDB, Tailwind CSS, Gemini API",
+      "description": "Developed an AI-driven mentorship platform offering tailored career roadmaps based on users’ backgrounds and goals. Engineered secure sign-ins, personalized dashboards, and a smooth, responsive UI. Collaborated closely with my some batchmates",
+      "description2": "— ensuring smooth teamwork, clean code, and user-focused results."
+    },
+    {
+      "title": "Maharani E-commerce (January 2025)",
+      "tech": " Next.js, Admin Panel, MongoDB, Mongoose",
+      "description": "Created a full-featured e-commerce platform with a robust admin dashboard for managing products, users, and orders. Implemented secure authentication, product filtering, and dynamic search. Integrated CRUD operations and order tracking, ensuring a seamless shopping experience for users and efficient store management for admins."
+    }
+  ],
+
+  "OtherProjects": [
+    {
+      "name": "Sonu.Dev – Personal Portfolio",
+      "description": "Sleek, responsive portfolio built with React, Nextjs, TailwindCSS, Shadcn UI to showcase skills and projects."
+    },
+    {
+      "name": "Apple Website Clone",
+      "description": "Pixel-perfect clone of Apple’s homepage with HTML5, CSS3, javaScript and Tailwind CSS."
+    },
+    {
+      "name": "Antivirus Product Site",
+      "description": " Freelance modern responsive site built with HTML5, CSS3, and JS featuring interactive sections and downloads."
+    },
+    {
+      "name": "Spotify Clone",
+      "description": "Responsive web player layout replicating Spotify’s UI, built with HTML5, CSS3, JavaScript."
+    },
+    {
+      "name": "Blinkit UI Clone",
+      "description": "E-commerce UI built with Flutter and Dart, deployed via Firebase with custom components."
+    },
+    {
+      "name": "Todo Web App",
+      "description": "Functional task manager app built with Flutter and Dart, featuring CRUD actions and Firebase hosting."
+    }
+  ],
+
+  "Certificates": [
+    {
+      "name": "Generative AI",
+      "issue": "Google · Issued Apr 2025",
+      "id": "14653895",
+      "href": "https://www.cloudskillsboost.google/public_profiles/4edab095-7ec9-4656-9d28-5680d69ff678/badges/14653895?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    },
+    {
+      "name": "Set Up an App Dev Environment on Google Cloud (Skill Badge)",
+      "issue": "Google · Issued Apr 2025",
+      "href": "https://www.credly.com/badges/a2e7efd7-ef52-4c7d-8a9a-b98d050979cf/linked_in_profile"
+    },
+    {
+      "name": "Skill Boost Arcade Base Camp",
+      "issue": "Google · Issued Apr 2025",
+      "id": "14547654",
+      "href": "https://www.cloudskillsboost.google/public_profiles/4edab095-7ec9-4656-9d28-5680d69ff678/badges/14547654?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+    }
+  ],
+
+  "RecentWorks": [
+    {
+      "site": "Mentor Mind",
+      "name":"AI Mentor Assistant",
+      "href": "https://mentor-mind-app.vercel.app"
+    },
+    {
+      "site": "Ecommerce Website",
+      "name":"Maharani",
+      "href": "https://maharani-blush.vercel.app"
+    }
+  ]
+}
