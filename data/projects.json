@@ -3,8 +3,8 @@
       "thumbnail": "/images/portfolio_thumbnail.png",
       "title": "Personal Portfolio",
       "link": {
-        "label": "Sonu.Dev",
-        "url": "https://sonu-portfolio-mu.vercel.app/"
+        "label": "Piyush.Dev",
+        "url": "https://my-portfoilo-dusky.vercel.app/"
       },
       "description": "Crafted a sleek and responsive portfolio to showcase my projects and technical skills using HTML5, CSS3, and JavaScript.",
       "languageIcons": ["/images/react_icon.png",

@@ -98,7 +98,7 @@ export function Resume() {
       );
   
       // Attempt to save the PDF
-      pdf.save("Sonu_Rai_Resume.pdf");
+      pdf.save("Piyush_Kumar_Singh_Resume.pdf");
   
       // Check if the file was downloaded successfully (in some cases, you can check after a timeout)
       setTimeout(() => {
@@ -140,7 +140,7 @@ export function Resume() {
       >
         {/* Required for accessibility */}
         <DialogHeader>
-          <DialogTitle className="hidden">Sonu Rai Resume</DialogTitle>
+          <DialogTitle className="hidden">Piysuh Kumar Singh Resume</DialogTitle>
           <DialogClose id="resume-close-btn">
             <Image
               src="/images/close.png"
