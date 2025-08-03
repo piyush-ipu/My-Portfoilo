@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #ffffff;
+  --foreground: #333333;
+  --primary: linear-gradient(to bottom right, #6748FF, #5a3ee0, #4c32c7);
+  --card: #ffffff;
+  --card-foreground: oklch(0.145 0 0);
+}
+
+
+.dark {
+  --background: #030304;
+  --foreground: #ffffff;
+  --primary: #6748ff;
+  --card: #1d1d1d;
+  --card-foreground: oklch(0.985 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    color: var(--foreground);
+    background-color: var(--background);
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components{
+  .circle-icon{
+    @apply flex items-center justify-center rounded-full w-11 h-11 md:w-14 md:h-14 bg-white/10 absolute;
+  }
+
+  .highlight{
+    @apply bg-primary text-white px-5 rounded-[4px] inline-block;
+  }
+
+  .section-contents{
+    @apply w-full flex flex-col items-center gap-7 md:gap-[50px];
+  }
+
+  .card-shadow{
+    @apply shadow-[0_3px_10px_rgb(0,0,0,0.2)];
+  }
+
+  .card{
+    @apply rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)];
+  }
+}
+
+@layer utilities {
+  
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+
+  .pulse-ring {
+    position: absolute;
+    border-radius: 9999px;
+    animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    border-width: 2.5px;
+    border-style: solid;
+  }
+
+  .pulse-ring-1 {
+    width: 110px;
+    height: 110px;
+    animation-delay: 0s;
+  }
+
+  .pulse-ring-2 {
+    width: 130px;
+    height: 130px;
+    animation-delay: 0.3s;
+  }
+
+  .pulse-ring-3 {
+    width: 150px;
+    height: 150px;
+    animation-delay: 0.6s;
+  }
+}
+
+
+/* Hide the scrollbar */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Webkit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .working {
+    flex-direction: column;
+  }
+  .boxes {
+    width: 100%;
+  }
+  .bar {
+    display: none;
+  }
+  .mailform{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .leadingsnugtext{
+    padding-left: 0;
+  }
+
+  .main-image-div{
+    height: 200px;
+    margin-top: 5rem;
+  }
+
+  .image-div{
+    height: 200px;
+    width: 200px;
+  }
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .hero{
+    padding-top: 2rem;
+  }
+}
+
+
+.screenshot-mode * {
+  box-shadow: none !important;
+  transition: none !important;
+  background-image: none !important;
+}
+
+
+
