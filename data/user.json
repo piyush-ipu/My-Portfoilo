@@ -105,34 +105,30 @@
     {
       "name": "Spotify Clone",
       "description": "Responsive web player layout replicating Spotify’s UI, built with HTML5, CSS3, JavaScript."
-    },
-    {
-      "name": "Blinkit UI Clone",
-      "description": "E-commerce UI built with Flutter and Dart, deployed via Firebase with custom components."
-    },
-    {
-      "name": "Todo Web App",
-      "description": "Functional task manager app built with Flutter and Dart, featuring CRUD actions and Firebase hosting."
     }
+   
   ],
 
   "Certificates": [
     {
-      "name": "Generative AI",
-      "issue": "Google · Issued Apr 2025",
-      "id": "14653895",
-      "href": "https://www.cloudskillsboost.google/public_profiles/4edab095-7ec9-4656-9d28-5680d69ff678/badges/14653895?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      "name": "Google Cyber Security Fundamentals",
+      "issue": "Google · Issued Dec 2023",
+      "href": "https://coursera.org/verify/G4UQTFFH7Y6S"
     },
     {
-      "name": "Set Up an App Dev Environment on Google Cloud (Skill Badge)",
-      "issue": "Google · Issued Apr 2025",
-      "href": "https://www.credly.com/badges/a2e7efd7-ef52-4c7d-8a9a-b98d050979cf/linked_in_profile"
+      "name": "GenAI: Prompt Engineering",
+      "issue": "Google · Issued oct 2023",
+      "href": "https://www.cloudskillsboost.google/public_profiles/70297545-3f1a-47d8-8f4f-93ae1ff1a6c4/badges/5562286"
     },
     {
-      "name": "Skill Boost Arcade Base Camp",
-      "issue": "Google · Issued Apr 2025",
-      "id": "14547654",
-      "href": "https://www.cloudskillsboost.google/public_profiles/4edab095-7ec9-4656-9d28-5680d69ff678/badges/14547654?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+      "name": "Prepare Data for ML APIs on Google Cloud",
+      "issue": "Google · Issued Oct 2023",
+      "href": "https://www.cloudskillsboost.google/public_profiles/70297545-3f1a-47d8-8f4f-93ae1ff1a6c4/badges/5637648"
+    },
+    {
+      "name": "Cloud computing and Generative AI ",
+      "issue": "Google · Issued Dec 2024",
+      "href": "https://www.linkedin.com/posts/piyush-kumar-singh-39826a259_certificate-activity-7139296043808063488-CvcD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-Tk6QBotnL-LGoTkKD6HnreZ8_w4VI5c88"
     }
   ],
 
