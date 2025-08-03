@@ -1,0 +1,110 @@
+[
+    {
+      "thumbnail": "/images/portfolio_thumbnail.png",
+      "title": "Personal Portfolio",
+      "link": {
+        "label": "Sonu.Dev",
+        "url": "https://sonu-portfolio-mu.vercel.app/"
+      },
+      "description": "Crafted a sleek and responsive portfolio to showcase my projects and technical skills using HTML5, CSS3, and JavaScript.",
+      "languageIcons": ["/images/react_icon.png",
+      "/images/tailwind_icon.png",
+      "/images/ts_icon.png",
+      "/images/shadcn_icon.png",
+      "/images/next_icon.png"],
+      "video": "/videos/porfolio.mp4"
+    },
+    {
+      "thumbnail": "/images/mentor_mind.png",
+      "title": "AI Mentor (Team Project)",
+      "link": {
+        "label": "Mentor Mind",
+        "url": "https://mentor-mind-app.vercel.app"
+      },
+      "description": "Built an AI-based mentorship web app to recommend personalized roadmaps for students using Gemini API and Next.js. (Team Project)",
+      "languageIcons": [
+        "/images/react_icon.png",
+        "/images/tailwind_icon.png",
+        "/images/ts_icon.png",
+        "/images/mongo_icon.png",
+        "/images/node_icon.png",
+        "/images/shadcn_icon.png",
+        "/images/next_icon.png"
+      ],
+      "video": "/videos/mentor.mp4"
+    },
+    {
+      "thumbnail": "/images/ecommerce_thumbnail.png",
+      "title": "E-commerce Platform",
+      "link": {
+        "label": "Maharaniz.com",
+        "url": "https://maharani-blush.vercel.app"
+      },
+      "description": "Built a complete e-commerce solution with shopping cart, user authentication, product filters, and admin dashboard.",
+      "languageIcons": ["/images/react_icon.png",
+        "/images/tailwind_icon.png",
+        "/images/ts_icon.png",
+        "/images/mongo_icon.png",
+        "/images/node_icon.png",
+        "/images/shadcn_icon.png",
+        "/images/next_icon.png"],
+        "video": "/videos/maharani.mp4"
+    },
+    {
+      "thumbnail": "/images/apple_thumbnail.png",
+      "title": "Apple Website Clone",
+      "link": {
+        "label": "Coming soon...",
+        "url": "/"
+      },
+      "description": "A pixel-perfect clone of Apple's homepage built with HTML, Tailwind CSS, and JavaScript. Fully responsive with smooth transitions, animated scrolling, and interactive UI elements to replicate Apple's sleek design and user experience.",
+      "languageIcons": ["/images/html_icon.png", "/images/css_icon.png", "/images/js_icon.png"],
+      "video": "/videos/apple.mp4"
+    },
+    {
+      "thumbnail": "/images/antivirus_thumbnail.png",
+      "title": "Antivirus Website",
+      "link": {
+        "label": "Coming soon...",
+        "url": "/"
+      },
+      "description": "Designed and developed a modern, responsive antivirus product website as a freelance project using HTML, CSS, and JavaScript. The site includes smooth navigation, interactive UI components, feature highlights, and product download sections tailored for user engagement.",
+      "languageIcons": ["/images/html_icon.png", "/images/css_icon.png", "/images/js_icon.png"],
+        "video": "/videos/anti.mp4"
+    },      
+    {
+      "thumbnail": "/images/spotify_thumbnail.png",
+      "title": "Spotify Website Clone",
+      "link": {
+        "label": "Coming soon...",
+        "url": "/"
+      },
+      "description": "Built a responsive Spotify website clone using HTML, CSS, and JavaScript. The project replicates the core layout and design of Spotify's official web player, including a dynamic sidebar, music player UI, and interactive navigation. Focused on pixel-perfect styling and smooth user experience across devices.",
+      "languageIcons": ["/images/html_icon.png", "/images/css_icon.png", "/images/js_icon.png"],
+        "video": "/videos/spotify.mp4"
+    },       
+    {
+      "thumbnail": "/images/blinkit_thumbnail.png",
+      "title": "Blinkit App UI Clone",
+      "link": {
+        "label": "Blinkit Web App",
+        "url": "https://blinkit-33f60.web.app"
+      },
+      "description": "Built a responsive Blinkit-inspired web app frontend using Flutter and Dart. The UI mimics real-world e-commerce interactions with smooth animations, custom widgets, and dynamic layout rendering. Hosted seamlessly on Firebase for fast, reliable access.",
+      "languageIcons": ["/images/flutter_icon.png", "/images/dart_icon.png", "/images/firebase_icon.png"],
+        "video": "/videos/blinkit.mp4"
+    },
+    {
+      "thumbnail": "/images/todo_thumbnail.png",
+      "title": "Todo App",
+      "link": {
+        "label": "Todo Web App",
+        "url": "https://todoapp-2c9b5.web.app"
+      },
+      "description": "Developed a fully functional Todo web app using Flutter and Dart, deployed on Firebase. Features include adding new tasks, marking them as complete, deleting tasks, and real-time search functionality. Designed with a clean, responsive UI for seamless task management across devices.",
+      "languageIcons": ["/images/flutter_icon.png", "/images/dart_icon.png", "/images/firebase_icon.png"],
+        "video": "/videos/todo.mp4"
+    }    
+    
+  ]
+  
